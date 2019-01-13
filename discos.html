@@ -1,0 +1,77 @@
+<!DOCTYPE HTML>
+<html lang="es">
+	<head>
+		<meta charset="utf-8">
+		<title>Final Bell</title>
+		
+		<link rel="stylesheet" type="text/css" href="css/grid.css">
+		<link rel="stylesheet" type="text/css" href="css/style.css">
+		<link rel="stylesheet" href="css/bootstrap.min.css">
+	</head>
+	<body>
+		<div class="container">
+			<h1 align="center">SIN BANDERA</h1>
+			<nav align="center" class="menu">
+				<a href="index.html">Home</a>
+				<a href="nosotros.html">Nosotros</a>
+				<a href="dicos.html">Discos</a>
+				<a href="contacto.html">Contacto</a>
+			</nav><br><br>
+			<div class="tit">
+				<h2>Discos</h2>
+			</div>
+			<BR>
+
+					<TABLE class="table discos">
+						<tr>
+							<th><img src="img/disco1.jpg"></th>
+							<th><img src="img/disco2.jpg"></th>
+							<th><img src="img/disco3.jpg"></th>
+							<th><img src="img/disco4.jpg"></th>
+							<th><img src="img/disco5.jpg"></th>
+							
+						</tr>
+						<BR>
+						<tr>
+							<th><img src="img/disco8.jpg"></th>
+							<th><img src="img/disco9.jpg"></th>
+							<th><img src="img/disco10.jpg"></th>
+							<th><img src="img/disco11.jpg"></th>
+							<th><img src="img/disco12.jpg"></th>
+							
+						</tr>
+						<tr>
+							<th><img src="img/disco6.jpg"></th>
+							<th><img src="img/disco7.jpg"></th>
+							<th><img src="img/disco13.jpg"></th>
+							<th><img src="img/disco14.jpg"></th>
+						</tr>
+					</TABLE>	
+	
+			
+			
+
+
+		</div>
+	</body>
+	<script src="js/jquery-3.3.1.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<script src="js/script.js"></script>
+	<script>
+var myIndex = 0;
+carousel();
+
+function carousel() {
+    var i;
+    var x = document.getElementsByClassName("mySlides");
+    for (i = 0; i < x.length; i++) {
+       x[i].style.display = "none";  
+    }
+    myIndex++;
+    if (myIndex > x.length) {myIndex = 1}    
+    x[myIndex-1].style.display = "block";  
+    setTimeout(carousel, 2000); // Change image every 2 seconds
+}
+</script>
+
+</html>

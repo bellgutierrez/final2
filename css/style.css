@@ -1,0 +1,70 @@
+.menu a{
+	text-decoration: none;
+	color: blue;
+	font-size: 25px;
+	padding-left: 5px;
+
+}
+a{
+	text-decoration: none;
+}
+.menu{
+	background: #ffdacc;
+}
+.container1 p{
+	color: black;
+	text-align: justify;
+}
+.titulo{
+	color: blue;
+	text-align: justify;
+}
+.parrafos{
+	padding-left: 25px;
+}
+.square{
+	padding-left: 20px;
+}
+.epigrafe {
+	color: #ff6933;
+	font-size: 12px;
+	
+}
+.square3{
+	padding-right: 10px;
+}
+
+.square2 p{
+	color: orange;
+	background-color: grey;
+	padding: 5px;
+	text-align: left;
+}
+
+.square2 h3{
+	background-color: orange;
+	padding: 2px;
+}
+
+.square1 h3{
+	background-color: orange;
+	padding: 2px;
+	width: 46%;
+}
+
+.square3 h3{
+	background-color: orange;
+	padding: 2px;
+	width: 33%;
+}
+.mySlides img{
+	text-align: left;
+}
+.tit{
+	text-align: center;
+}
+
+.discos img{
+	width: 150px;
+	height: 150px;
+}
